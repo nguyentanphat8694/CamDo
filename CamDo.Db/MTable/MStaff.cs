@@ -18,5 +18,6 @@ namespace CamDo.Db.MTable
         public bool IsDeleted { get; set; }
 
         public ICollection<MContract> Contracts { get; set; }
+
     }
 }

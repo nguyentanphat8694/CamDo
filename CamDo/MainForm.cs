@@ -9,9 +9,14 @@ namespace CamDo
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnRedeemClick(object sender, EventArgs e)
         {
             OpenChildForm(new MFRedeemForm(), sender);
+        }
+
+        private void btnCreateClick(object sender, EventArgs e)
+        {
+            OpenChildForm(new MFCreateForm(), sender);
         }
     }
 }

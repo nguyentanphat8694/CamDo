@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Forms\MFCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MFInterestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\MFRedeemForm.cs">
       <SubType>Form</SubType>
     </Compile>
