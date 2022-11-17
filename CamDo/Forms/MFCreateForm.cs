@@ -1,4 +1,5 @@
-﻿using CamDo.Entity.VModel;
+﻿using CamDo.Business;
+using CamDo.Entity.VModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,15 @@ namespace CamDo.Forms
         public MFCreateForm()
         {
             InitializeComponent();
+            InitForm();
+        }
+
+        private async void InitForm()
+        {
+            var ctServ = new ContractServices();
+            var newContract = await ctServ.GetInitContractForm();
+            lblId.Text = newContract.Id;
+            lblDate.Text = newContract.CreatedDate.ToString("dd-MM-yyy");
         }
 
         private void btnClose_Click(object sender, EventArgs e)

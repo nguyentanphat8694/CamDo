@@ -19,5 +19,9 @@ namespace CamDo.Entity.VModel
         public bool IsLiquidation { get; set; }
         public bool IsLoss { get; set; }
         public bool IsMachine { get; set; }
+        public decimal? TotalWeight { get; set; }
+        public decimal? NotGoldWeightCost { get; set; }
+        public string TypeGold { get; set; }
+        public int PriceUnit { get; set; }
     }
 }

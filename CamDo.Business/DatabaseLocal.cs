@@ -1,4 +1,5 @@
-﻿using CamDo.Db.MTable;
+﻿using CamDo.Db;
+using CamDo.Db.MTable;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +18,40 @@ namespace CamDo.Business
             return _instance;
         }
 
-        public DatabaseLocal()
+        private List<MStaff> staffs;
+        public List<MStaff> Staffs
         {
-            var staffServices = new StaffServices();
-            Staffs = staffServices.GetAll();
+            get
+            {
+                if (staffs == null)
+                {
+                    using (var context = new PrawnDbContext())
+                        staffs = context.Staffs.ToList();
+                }
+                return staffs;
+            }
+            set
+            {
+                staffs = value;
+            }
         }
 
-        public List<MStaff> Staffs { get; set; }
+        private List<KeyValuePair<string, int>> prawnPrice;
+        public List<KeyValuePair<string, int>> PrawnPrice
+        {
+            get
+            {
+                if (prawnPrice == null)
+                {
+                    using (var context = new PrawnDbContext())
+                        prawnPrice = context.PrawnPrices.Select(x => new KeyValuePair<string, int> (x.Name, x.Price)).ToList();
+                }
+                return prawnPrice;
+            }
+            set
+            {
+                prawnPrice = value;
+            }
+        }
     }
 }

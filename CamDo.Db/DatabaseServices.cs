@@ -34,21 +34,45 @@ namespace CamDo.Db
             });
             context.AppSettings.Add(new MTable.MAppSetting
             {
-                Id = 1,
+                Id = 2,
                 Name = EAppSetting.KeyStringId.ToString(),
                 Value = "A"
             });
             context.AppSettings.Add(new MTable.MAppSetting
             {
-                Id = 1,
+                Id = 3,
                 Name = EAppSetting.KeyNumberId.ToString(),
                 Value = "000"
             });
             context.AppSettings.Add(new MTable.MAppSetting
             {
-                Id = 1,
+                Id = 4,
                 Name = EAppSetting.NumberMachineId.ToString(),
                 Value = "0000"
+            });
+            context.PrawnPrices.Add(new MTable.MPrawnPrice
+            {
+                Id = 1,
+                Name = "610",
+                Price = 2700000
+            });
+            context.PrawnPrices.Add(new MTable.MPrawnPrice
+            {
+                Id = 2,
+                Name = "9999",
+                Price = 4500000
+            });
+            context.PrawnPrices.Add(new MTable.MPrawnPrice
+            {
+                Id = 3,
+                Name = "999",
+                Price = 4500000
+            });
+            context.PrawnPrices.Add(new MTable.MPrawnPrice
+            {
+                Id = 4,
+                Name = "980",
+                Price = 4500000
             });
             return context;
         }

@@ -1,3 +1,4 @@
+using CamDo.Db;
 using CamDo.Forms;
 
 namespace CamDo
@@ -6,6 +7,8 @@ namespace CamDo
     {
         public MainForm()
         {
+            var dbService = new DatabaseServices();
+            Task.Run(() => dbService.CheckAndUpdateDatabase()).Wait();
             InitializeComponent();
         }
 

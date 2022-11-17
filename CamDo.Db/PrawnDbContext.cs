@@ -24,6 +24,7 @@ namespace CamDo.Db
         public DbSet<MMoneyInOut> MoneyInOuts { get; set; }
         public DbSet<MRedeem> Redeems { get; set; }
         public DbSet<MStaff> Staffs { get; set; }
+        public DbSet<MPrawnPrice> PrawnPrices { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -62,6 +63,9 @@ namespace CamDo.Db
                 entity.Property(x => x.IsLoss).IsRequired(true).HasDefaultValue(false);
                 entity.Property(x => x.IsPrint).HasDefaultValue(false);
                 entity.Property(x => x.IsMachine).HasDefaultValue(false);
+                entity.Property(x => x.TypeGold).IsRequired(false);
+                entity.Property(x => x.TotalWeight).IsRequired(false);
+                entity.Property(x => x.NotGoldWeight).IsRequired(false);
                 entity.Property(x => x.CreatedDate).IsRequired(true).HasDefaultValue(DateTime.UtcNow);
                 entity.HasOne<MRedeem>(x => x.Redeem).WithOne(x => x.Contract).HasForeignKey<MRedeem>(x => x.ContractId);
                 entity.HasOne<MLoss>(x => x.Loss).WithOne(x => x.Contract).HasForeignKey<MLoss>(x => x.ContractId);
@@ -78,6 +82,7 @@ namespace CamDo.Db
                 entity.Property(x => x.ToDate).IsRequired(true);
                 entity.Property(x => x.CreatedDate).IsRequired(true).HasDefaultValue(DateTime.UtcNow);
                 entity.HasOne(x => x.Contract).WithMany(x => x.Interests).HasForeignKey(x => x.ContractId).IsRequired(true);
+                entity.HasOne(x => x.Staff).WithMany(x => x.Interests).HasForeignKey(x => x.StaffId).IsRequired(true);
             });
 
             modelBuilder.Entity<MRedeem>().ToTable("Redeem", "main");
@@ -86,7 +91,7 @@ namespace CamDo.Db
                 entity.HasKey(x => x.Id);
                 entity.Property(x => x.CreatedDate).IsRequired(true).HasDefaultValue(DateTime.UtcNow);
                 entity.HasIndex(x => x.CreatedDate);
-
+                entity.HasOne(x => x.Staff).WithMany(x => x.Redeems).HasForeignKey(x => x.StaffId).IsRequired(true);
             });
 
             modelBuilder.Entity<MLoss>().ToTable("Loss", "main");
@@ -163,6 +168,15 @@ namespace CamDo.Db
                 entity.HasKey(x => x.Id);
                 entity.Property(x => x.Name).IsRequired(true);
                 entity.Property(x => x.Value).IsRequired(true);
+                entity.Property(x => x.Note).IsRequired(false);
+            });
+
+            modelBuilder.Entity<MPrawnPrice>().ToTable("PrawnPrice", "main");
+            modelBuilder.Entity<MPrawnPrice>(entity =>
+            {
+                entity.HasKey(x => x.Id);
+                entity.Property(x => x.Name).IsRequired(true);
+                entity.Property(x => x.Price).IsRequired(true);
             });
             #endregion
 

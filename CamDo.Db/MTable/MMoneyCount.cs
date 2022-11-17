@@ -19,5 +19,4 @@ namespace CamDo.Db.MTable
         public int _5 { get; set; }
         public int _2 { get; set; }
     }
-    }
 }

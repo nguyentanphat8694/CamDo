@@ -1,0 +1,15 @@
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.csproj.AssemblyReference.cache
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.AssemblyInfoInputs.cache
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.AssemblyInfo.cs
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.csproj.CoreCompileInputs.cache
+D:\C#\CamDo\CamDo.Db\bin\Debug\net6.0\CamDo.Db.deps.json
+D:\C#\CamDo\CamDo.Db\bin\Debug\net6.0\CamDo.Db.dll
+D:\C#\CamDo\CamDo.Db\bin\Debug\net6.0\CamDo.Db.pdb
+D:\C#\CamDo\CamDo.Db\bin\Debug\net6.0\CamDo.Entity.dll
+D:\C#\CamDo\CamDo.Db\bin\Debug\net6.0\CamDo.Entity.pdb
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.csproj.CopyComplete
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.dll
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\refint\CamDo.Db.dll
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\CamDo.Db.pdb
+D:\C#\CamDo\CamDo.Db\obj\Debug\net6.0\ref\CamDo.Db.dll

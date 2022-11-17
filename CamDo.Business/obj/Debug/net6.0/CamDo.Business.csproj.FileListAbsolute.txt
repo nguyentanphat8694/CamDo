@@ -1,0 +1,17 @@
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.csproj.AssemblyReference.cache
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.AssemblyInfoInputs.cache
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.AssemblyInfo.cs
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.csproj.CoreCompileInputs.cache
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Business.deps.json
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Business.dll
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Business.pdb
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Db.dll
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Entity.dll
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Db.pdb
+D:\C#\CamDo\CamDo.Business\bin\Debug\net6.0\CamDo.Entity.pdb
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.csproj.CopyComplete
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.dll
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\refint\CamDo.Business.dll
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\CamDo.Business.pdb
+D:\C#\CamDo\CamDo.Business\obj\Debug\net6.0\ref\CamDo.Business.dll

@@ -11,8 +11,10 @@ namespace CamDo.Db.MTable
         public int Id { get; set; }
         public string ContractId { get; set; }
         public string Note { get; set; }
+        public int StaffId { get; set; }
         public DateTime CreatedDate { get; set; }
         
         public MContract Contract { get; set; }
+        public MStaff Staff { get; set; }
     }
 }

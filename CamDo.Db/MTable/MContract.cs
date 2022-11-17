@@ -24,6 +24,9 @@ namespace CamDo.Db.MTable
         public bool IsLiquidation { get; set; }
         public bool IsLoss { get; set; }
         public bool IsMachine { get; set; }
+        public string TypeGold { get; set; }
+        public decimal? TotalWeight { get; set; }
+        public decimal? NotGoldWeight { get; set; }
 
         public MStaff Staff { get; set; }
         public MRedeem Redeem { get; set; }

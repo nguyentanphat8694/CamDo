@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CamDo.Business\CamDo.Business.csproj" />
+    <ProjectReference Include="..\CamDo.Db\CamDo.Db.csproj" />
     <ProjectReference Include="..\CamDo.Entity\CamDo.Entity.csproj" />
   </ItemGroup>
 
