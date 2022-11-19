@@ -86,9 +86,10 @@ namespace CamDo.Business
             var keyPrice = "610";
             var priceData = DatabaseLocal.GetInstance().PrawnPrice.FirstOrDefault(x => string.Equals(x.Key, keyPrice));
             var price = string.IsNullOrEmpty(priceData.Key) ? 0 : priceData.Value;
+            var idContract = GetIDContract(false);
             var newContract = new VContract()
             {
-                Id = GetIDContract(false),
+                Id = idContract,
                 CreatedDate = DateTime.Now,
                 TotalWeight = 0,
                 NotGoldWeightCost = 0,

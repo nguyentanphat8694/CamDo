@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\CamDo\\CamDo\\CamDo.csproj": {}
+    "D:\\Projects\\CamDo\\CamDo\\CamDo.csproj": {}
   },
   "projects": {
-    "D:\\C#\\CamDo\\CamDo.Business\\CamDo.Business.csproj": {
+    "D:\\Projects\\CamDo\\CamDo.Business\\CamDo.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CamDo\\CamDo.Business\\CamDo.Business.csproj",
+        "projectUniqueName": "D:\\Projects\\CamDo\\CamDo.Business\\CamDo.Business.csproj",
         "projectName": "CamDo.Business",
-        "projectPath": "D:\\C#\\CamDo\\CamDo.Business\\CamDo.Business.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CamDo\\CamDo.Business\\obj\\",
+        "projectPath": "D:\\Projects\\CamDo\\CamDo.Business\\CamDo.Business.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CamDo\\CamDo.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -29,17 +29,18 @@
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ohDTZlwo4NGmauc3ezdvChbfHRp5bZg3bdRUlXoIAp7GXDzida/api": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj": {
-                "projectPath": "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj"
+              "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj": {
+                "projectPath": "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj"
               },
-              "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
-                "projectPath": "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj"
+              "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
+                "projectPath": "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj"
               }
             }
           }
@@ -69,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj": {
+    "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj",
+        "projectUniqueName": "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj",
         "projectName": "CamDo.Db",
-        "projectPath": "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CamDo\\CamDo.Db\\obj\\",
+        "projectPath": "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CamDo\\CamDo.Db\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -98,14 +99,15 @@
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ohDTZlwo4NGmauc3ezdvChbfHRp5bZg3bdRUlXoIAp7GXDzida/api": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
-                "projectPath": "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj"
+              "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
+                "projectPath": "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj"
               }
             }
           }
@@ -141,24 +143,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
+    "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj",
+        "projectUniqueName": "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj",
         "projectName": "CamDo.Entity",
-        "projectPath": "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CamDo\\CamDo.Entity\\obj\\",
+        "projectPath": "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CamDo\\CamDo.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -170,7 +172,8 @@
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ohDTZlwo4NGmauc3ezdvChbfHRp5bZg3bdRUlXoIAp7GXDzida/api": {}
         },
         "frameworks": {
           "net6.0": {
@@ -203,24 +206,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#\\CamDo\\CamDo\\CamDo.csproj": {
+    "D:\\Projects\\CamDo\\CamDo\\CamDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CamDo\\CamDo\\CamDo.csproj",
+        "projectUniqueName": "D:\\Projects\\CamDo\\CamDo\\CamDo.csproj",
         "projectName": "CamDo",
-        "projectPath": "D:\\C#\\CamDo\\CamDo\\CamDo.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CamDo\\CamDo\\obj\\",
+        "projectPath": "D:\\Projects\\CamDo\\CamDo\\CamDo.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CamDo\\CamDo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -232,20 +235,21 @@
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ohDTZlwo4NGmauc3ezdvChbfHRp5bZg3bdRUlXoIAp7GXDzida/api": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\C#\\CamDo\\CamDo.Business\\CamDo.Business.csproj": {
-                "projectPath": "D:\\C#\\CamDo\\CamDo.Business\\CamDo.Business.csproj"
+              "D:\\Projects\\CamDo\\CamDo.Business\\CamDo.Business.csproj": {
+                "projectPath": "D:\\Projects\\CamDo\\CamDo.Business\\CamDo.Business.csproj"
               },
-              "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj": {
-                "projectPath": "D:\\C#\\CamDo\\CamDo.Db\\CamDo.Db.csproj"
+              "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj": {
+                "projectPath": "D:\\Projects\\CamDo\\CamDo.Db\\CamDo.Db.csproj"
               },
-              "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
-                "projectPath": "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj"
+              "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj": {
+                "projectPath": "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj"
               }
             }
           }
@@ -278,7 +282,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

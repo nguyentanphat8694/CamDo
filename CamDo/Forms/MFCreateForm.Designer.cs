@@ -1,4 +1,6 @@
-﻿namespace CamDo.Forms
+﻿using CamDo.CustomControl;
+
+namespace CamDo.Forms
 {
     partial class MFCreateForm
     {
@@ -39,7 +41,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtDescription = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtMoney = new System.Windows.Forms.TextBox();
+            this.txtMoney = new TextBoxMoney();
             this.lblMoney = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();

@@ -18,6 +18,14 @@ namespace CamDo.Business
             return _instance;
         }
 
+        public static void Init()
+        {
+            if (_instance == null)
+                _instance = new DatabaseLocal();
+            var listPrawnPrice = _instance.PrawnPrice;
+            var listStaff = _instance.Staffs;
+        }
+
         private List<MStaff> staffs;
         public List<MStaff> Staffs
         {

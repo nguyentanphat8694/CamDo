@@ -10,3 +10,15 @@ D:\C#\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.dll
 D:\C#\CamDo\CamDo.Entity\obj\Debug\net6.0\refint\CamDo.Entity.dll
 D:\C#\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.pdb
 D:\C#\CamDo\CamDo.Entity\obj\Debug\net6.0\ref\CamDo.Entity.dll
+D:\Projects\CamDo\CamDo.Entity\bin\Debug\net6.0\CamDo.Entity.deps.json
+D:\Projects\CamDo\CamDo.Entity\bin\Debug\net6.0\CamDo.Entity.dll
+D:\Projects\CamDo\CamDo.Entity\bin\Debug\net6.0\CamDo.Entity.pdb
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.csproj.AssemblyReference.cache
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.AssemblyInfoInputs.cache
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.AssemblyInfo.cs
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.csproj.CoreCompileInputs.cache
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.dll
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\refint\CamDo.Entity.dll
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\CamDo.Entity.pdb
+D:\Projects\CamDo\CamDo.Entity\obj\Debug\net6.0\ref\CamDo.Entity.dll

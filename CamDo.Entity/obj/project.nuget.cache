@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s/XAC/gWoThfUDJVBsuau6YYQh9OGoOECVeH/QA2uMJxNqUuiGfF17OsEnfex60BcuTIhPQDNtsG6qZRx1dg3w==",
+  "dgSpecHash": "H7CBM2Gs4+zZKQ06+5umX7aEBrKkBZooVMs4k3jv6pS0gJza4E/y3ZO/NhL2qNYi7/AcxPrN2wysVHDZM5baPQ==",
   "success": true,
-  "projectFilePath": "D:\\C#\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj",
+  "projectFilePath": "D:\\Projects\\CamDo\\CamDo.Entity\\CamDo.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
