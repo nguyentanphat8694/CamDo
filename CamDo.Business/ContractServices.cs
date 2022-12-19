@@ -14,8 +14,8 @@ namespace CamDo.Business
     public class ContractServices
     {
         public List<string> ListLetters = new List<string> { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
-        
-        private string GetIDContract(bool isMachine)
+
+        public string GetNewIDContract(bool isMachine)
         {
             using (var context = new PrawnDbContext())
             {
@@ -32,6 +32,7 @@ namespace CamDo.Business
                 {
                     var settingLetter = context.AppSettings.FirstOrDefault(x => string.Equals(x.Name, EAppSetting.KeyStringId.ToString()));
                     var settingNumber = context.AppSettings.FirstOrDefault(x => string.Equals(x.Name, EAppSetting.KeyNumberId.ToString()));
+                    lastId = "";
                     if (settingLetter != null && settingNumber != null)
                     {
                         var num = Int32.Parse(settingNumber.Value) + 1;
@@ -39,42 +40,34 @@ namespace CamDo.Business
                         {
                             var letArr = settingLetter.Value.ToCharArray();
                             var curIdx = letArr.Length - 1;
-                            var isContinue = true;
-                            while (isContinue)
+                            var curChar = letArr[curIdx].ToString();
+                            var noAlphabet = ListLetters.Count;
+                            var alphabetIdx = ListLetters.IndexOf(curChar);
+                            if (alphabetIdx == noAlphabet - 1)
                             {
-                                var curChar = letArr[curIdx].ToString();
-                                var noAlphabet = ListLetters.Count;
-                                var alphabetIdx = ListLetters.IndexOf(curChar);
-                                if (curIdx < 0)
+                                for (var i = 0; i < letArr.Length; i++)
                                 {
-                                    lastId = ListLetters[0];
-                                    foreach (var i in letArr)
-                                        lastId += ListLetters[0];
-                                    break;
-                                }
-                                else
-                                {
-                                    if (alphabetIdx >= noAlphabet - 1)
-                                        curIdx -= 1;
+                                    if (i == letArr.Length - 1)
+                                        lastId += ListLetters[0] + ListLetters[0];
                                     else
-                                    {
-                                        lastId = "";
-                                        for (var i = 0; i < letArr.Length; i++)
-                                        {
-                                            if (i == curIdx)
-                                                lastId += ListLetters[alphabetIdx + 1];
-                                            else if (i < curIdx)
-                                                lastId += letArr[i];
-                                            else
-                                                lastId += ListLetters[0];
-                                        }
-                                        break;
-                                    }
+                                        lastId += letArr[i].ToString();
                                 }
                             }
+                            else
+                            {
+                                for (var i = 0; i < letArr.Length; i++)
+                                {
+                                    if (i == letArr.Length - 1)
+                                        lastId += ListLetters[alphabetIdx + 1];
+                                    else
+                                        lastId += letArr[i].ToString();
+                                }
+                            }
+                            lastId += "001";
                         }
                         else
-                            lastId = settingNumber.Value + num.ToString("000");
+                            lastId = settingLetter.Value + num.ToString("000");
+
                     }
                 }
                 return lastId;
@@ -86,7 +79,7 @@ namespace CamDo.Business
             var keyPrice = "610";
             var priceData = DatabaseLocal.GetInstance().PrawnPrice.FirstOrDefault(x => string.Equals(x.Key, keyPrice));
             var price = string.IsNullOrEmpty(priceData.Key) ? 0 : priceData.Value;
-            var idContract = GetIDContract(false);
+            var idContract = GetNewIDContract(false);
             var newContract = new VContract()
             {
                 Id = idContract,

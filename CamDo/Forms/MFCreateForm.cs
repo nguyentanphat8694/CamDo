@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -55,6 +56,23 @@ namespace CamDo.Forms
                 IsMachine = ckbIsMachine.Checked,
             };
             return false;
+        }
+
+        private void ckbIsMachine_CheckedChanged(object sender, EventArgs e)
+        {
+            var ctServ = new ContractServices();
+            var isMachine = ckbIsMachine.Checked;
+            var newId = ctServ.GetNewIDContract(isMachine);
+            SetEnableGoldType(!isMachine);
+            lblId.Text = newId.ToString();
+        }
+
+        private void SetEnableGoldType(bool isEnable)
+        {
+            iptTotalMass.Enabled = isEnable;
+            iptNotGoldMass.Enabled = isEnable;
+            iptTypeGold.Enabled = isEnable;
+            iptPriceUnit.Enabled = isEnable;
         }
     }
 }
